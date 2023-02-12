@@ -18,8 +18,6 @@ export default function BasicTabs() {
     return () => window.removeEventListener("resize", handleWindowResize);
   }, []);
 
-  // return viewportWidth < tabletBreakpoint ? "MOBILE CONTENT" : "TABLET CONTENT";
-
   return (
     <>
       <Tab.Container id="left-tabs-example" defaultActiveKey="first">
